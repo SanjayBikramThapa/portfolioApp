@@ -1,0 +1,27 @@
+.frontHeader img {
+    width: 100%;
+}
+
+.fonts_frontHead {
+    font-family: 'Vesper Libre', serif;
+    font-size: 25px;
+    text-shadow: 1px 1px 1px #d1cccc;
+}
+
+#front_button .bg {
+    background: #7AD0DA;
+    /* box-shadow: none; */
+    border: none;
+    color: #ffff;
+}
+#front_button button:hover {
+    background: #46DBEB;
+    box-shadow: none;
+}
+#front_button .font_family{
+    font-family: 'Comfortaa', cursive;
+}
+/* for popup */
+.alignment{
+    text-align: justify !important;
+}

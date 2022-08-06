@@ -1,0 +1,23 @@
+#contactMe{
+    position: relative;
+}
+#contactMe:before {
+  content: "";
+  position: absolute;
+  width: 20%;
+  height: 5px;
+  bottom: 0;
+  left: 44%;
+  background-color: #F7A709;
+  visibility: hidden;
+  transform: scaleX(0);
+  transition: all 0.3s ease-in-out;
+}
+#contactMe:hover:before {
+    visibility: visible;
+    transform: scaleX(1);
+  }
+#contact img{
+    margin-top: 50px;
+    width: 80%;
+}

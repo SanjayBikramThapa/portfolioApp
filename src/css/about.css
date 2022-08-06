@@ -1,0 +1,35 @@
+/* for about.js */
+.about_background h2{
+    font-family: 'Vesper Libre', serif;
+}
+.about_background img{
+    width: 80%;
+}
+
+.margin{
+    margin-top: 10px;
+}
+.margin_left{
+    margin-top: 100px;
+    padding-left: 15%;
+    text-align: center;
+}
+#aboutMe{
+    position: relative;
+}
+#aboutMe:before {
+  content: "";
+  position: absolute;
+  width: 27%;
+  height: 5px;
+  bottom: 0;
+  left: 44%;
+  background-color: #F7A709;
+  visibility: hidden;
+  transform: scaleX(0);
+  transition: all 0.3s ease-in-out;
+}
+#aboutMe:hover:before {
+    visibility: visible;
+    transform: scaleX(1);
+  }
