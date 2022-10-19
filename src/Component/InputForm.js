@@ -56,7 +56,7 @@ const InputForm = () => {
     initialValues={{about:'',contact:'',address:'',email:''}}
     validationSchema={Yup.object({
         about:Yup.string()
-        .max(20,"About is 20 characters or less")
+        .max(20,'About is 20 characters or less')
         .required('About is required'),
         contact:Yup.string()
         .required('Contact is required'),
